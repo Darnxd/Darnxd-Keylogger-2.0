@@ -60,3 +60,11 @@ This project is strictly for authorized penetration testing labs and digital for
    - Structured forensic report generation (.txt)
 
 ### **Analyst Experience**
+
+   - Severity distribution of captured events (Low, Medium, High, Critical)
+
+   - Top harvested credentials and activity summary
+
+   - Incident board style forensic report with keystrokes, mouse logs, screenshots
+
+   - Alert views for keystrokes, mouse activity, screenshots, and harvested data
