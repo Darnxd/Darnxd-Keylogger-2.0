@@ -20,6 +20,7 @@ This project is strictly for authorized penetration testing labs and digital for
 # 🧠 Architecture
 
    [KeystoneCaptor → Keyboard Capture]
+   
           ↓
    [MouseDetector → Mouse Clicks / Moves]
           ↓
