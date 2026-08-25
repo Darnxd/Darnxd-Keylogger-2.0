@@ -10,7 +10,7 @@
    - Destroy all captured data immediately after authorized use.
 
 # What Is This?
-**Keylogger Darnxd 2.0**is an educational cybersecurity lab tool created to show how attackers can capture keystrokes, mouse activity, screenshots, and credentials,
+**Keylogger Darnxd 2.0** is an educational cybersecurity lab tool created to show how attackers can capture keystrokes, mouse activity, screenshots, and credentials,
 and how forensic analysts can study this data. It automatically generates a forensic report (`darnxd_keylogger_report.txt`) and a credential log (`HARVESTED_CREDENTIALS.csv`) 
 to help students understand the risks of keyloggers. This project is strictly for authorized penetration testing labs and digital forensics practice, not for misuse. 
 
