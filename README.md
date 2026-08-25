@@ -50,3 +50,11 @@ This project is strictly for authorized penetration testing labs and digital for
    - Simple anomaly hooks (e.g., repeated failed logins, suspicious text patterns)
 
 ### **Response**
+
+   - Evidence compression into ZIP bundles every 2 minutes
+
+   - Exfiltration staging marker (EXFILTRATION_MARKER.txt)
+
+   - Live CLI dashboard for real‑time monitoring of keys, clicks, creds, screenshots
+
+   - Structured forensic report generation (.txt)
