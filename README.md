@@ -58,3 +58,5 @@ This project is strictly for authorized penetration testing labs and digital for
    - Live CLI dashboard for real‑time monitoring of keys, clicks, creds, screenshots
 
    - Structured forensic report generation (.txt)
+
+### **Analyst Experience**
