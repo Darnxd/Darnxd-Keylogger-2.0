@@ -20,19 +20,18 @@ This project is strictly for authorized penetration testing labs and digital for
 # 🧠 Architecture
 
    [KeystoneCaptor → Keyboard Capture]
-   
-          ↓
+                  ↓
    [MouseDetector → Mouse Clicks / Moves]
-          ↓
+                  ↓
    [ScreenshotCaptor → Periodic Screenshots]
-          ↓
+                  ↓
    [CredentialHarvester → Regex Scanning]
-          ↓
+                  ↓
    [HarvestStore → CSV Credential Storage]
-          ↓
+                  ↓
    [EvidenceBuffer → Thread‑safe Event Store]
-          ↓
+                  ↓
    [Bundler → Compression + Exfil Marker]
-          ↓
+                  ↓
    [Report Generator → Structured Forensic Report]
 
