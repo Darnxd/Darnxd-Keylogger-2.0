@@ -35,4 +35,4 @@ This project is strictly for authorized penetration testing labs and digital for
                       ↓
       [Report Generator → Structured Forensic Report]
 
-# **✨ Features**
+# **⚙️ Features**
