@@ -38,3 +38,13 @@ This project is strictly for authorized penetration testing labs and digital for
 # **⚙️ Features**
 
 ### **Detection**
+
+   - Keystroke sequence capture (raw bracket format logging)
+
+   - Mouse click and movement detection with coordinates and zones
+
+   - Periodic screenshot capture (every 30 seconds)
+
+   - Regex‑based credential harvesting (emails, usernames, passwords, tokens)
+
+   - Simple anomaly hooks (e.g., repeated failed logins, suspicious text patterns)
