@@ -16,3 +16,5 @@
  **For example** typing "hello world" will appear in the log as `[h][e][l][l][o][space][w][o][r][l][d]`, and mouse clicks are recorded with timestamp and zone details and screenshots are taken every 30 seconds to show what was on the screen at that time.
 
 This project is strictly for authorized penetration testing labs and digital forensics practice, not for misuse.
+
+# 🧠 Architecture
