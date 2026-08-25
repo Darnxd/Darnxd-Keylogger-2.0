@@ -48,3 +48,5 @@ This project is strictly for authorized penetration testing labs and digital for
    - Regex‑based credential harvesting (emails, usernames, passwords, tokens)
 
    - Simple anomaly hooks (e.g., repeated failed logins, suspicious text patterns)
+
+### **Response**
