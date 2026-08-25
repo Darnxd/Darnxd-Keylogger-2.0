@@ -10,10 +10,10 @@
    - Destroy all captured data immediately after authorized use.
 
 # What Is This?
-**Keylogger Darnxd 2.0** is a keystroke logger and credential harvester tool programmed in Python that is useful to:
-   - Penetration Testers (as an attack simulation tool on labs)
-   - Red Teams (for testing EDR/AV Detection)
-   - Blue Teams (learning about harvester behavior)
-   - Forensic Students (evidence analysis practice)
+**Keylogger Darnxd 2.0**is an educational cybersecurity lab tool created to show how attackers can capture keystrokes, mouse activity, screenshots, and credentials,
+and how forensic analysts can study this data. It automatically generates a forensic report (`darnxd_keylogger_report.txt`) and a credential log (`HARVESTED_CREDENTIALS.csv`) 
+to help students understand the risks of keyloggers. This project is strictly for authorized penetration testing labs and digital forensics practice, not for misuse. 
 
-This is not a joke keylogger tool; it actually steals credentials (Emails, usernames, passwords, credit card numbers, phone numbers) and saves them in plaintext CSV format.
+###**For example** typing "hello world" will appear in the log as `[h][e][l][l][o][space][w][o][r][l][d]`, and mouse clicks are recorded with timestamp and zone details.
+
+The purpose is to give learners hands‑on experience in detecting, analyzing, and defending against such threats.
