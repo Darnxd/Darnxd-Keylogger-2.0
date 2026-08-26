@@ -160,3 +160,5 @@ This project is strictly for authorized penetration testing labs and digital for
 
       - Produces a structured forensic report (darnxd_keylogger_report.txt).
       - Includes ASCII banner, evidence summary, keystroke analysis, credential dump, mouse activity, screenshot log.
+    
+
