@@ -108,9 +108,11 @@ This project is strictly for authorized penetration testing labs and digital for
    - **KeystoneCaptor (Keyboard Module)**
      
         - Captures raw keystrokes in bracket notation ([backspace], [ctrl]a, [enter]).        
-        - Sends events to the SequenceBuilder. 
+        - Sends events to the SequenceBuilder.
+          
   - **SequenceBuilder**
-        - Builds two streams:
+    
+       - Builds two streams:
            - Raw sequence → verbatim keystrokes.
            - Decoded text → applies backspaces, spaces, enters.
-        - Example: raw = admin[backspace]gmail.com, decoded = admingmail.com.
+       - Example: raw = admin[backspace]gmail.com, decoded = admingmail.com.
