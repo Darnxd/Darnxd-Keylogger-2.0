@@ -72,4 +72,4 @@ This project is strictly for authorized penetration testing labs and digital for
 
 # **🛠️ Technologies Used**
 
-   - Python 3.8+
+  - Python 3.8+
