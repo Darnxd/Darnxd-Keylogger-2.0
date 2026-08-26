@@ -68,3 +68,8 @@ This project is strictly for authorized penetration testing labs and digital for
    - Incident board style forensic report with keystrokes, mouse logs, screenshots
 
    - Alert views for keystrokes, mouse activity, screenshots, and harvested data
+
+
+# **🛠️ Technologies Used**
+
+   - Python 3.8+
