@@ -132,3 +132,11 @@ This project is strictly for authorized penetration testing labs and digital for
         - Scans decoded text every 3 seconds.
         - Extracts real credentials (emails, usernames, passwords, tokens, SSNs, credit cards, phone numbers).
         - Saves matches in plaintext to HARVESTED_CREDENTIALS.csv.
+
+   - **HarvestStore (CSV Storage)**
+
+        - Immediately logs each credential with:
+            - Timestamp
+            - Type (EMAIL, PASSWORD, etc.)
+            - Value (plaintext)
+            - Context snippet
