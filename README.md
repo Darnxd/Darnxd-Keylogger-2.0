@@ -74,7 +74,7 @@ This project is strictly for authorized penetration testing labs and digital for
 
    - Python 3.8+
 
- **Libraries**
+ ### **Libraries**
 
 | Library             | Purpose                        | Why Needed                                                                 |
 |---------------------|--------------------------------|----------------------------------------------------------------------------|
