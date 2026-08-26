@@ -195,5 +195,7 @@ This project is strictly for authorized penetration testing labs and digital for
    4.  Run the script (works on Windows)
 
             python darnxd_keylogger_2.0.py
+
+   5. Run the Script (works on Linux/MacOS)
       
-      
+            python3 darnxd_keylogger_2.0.py
