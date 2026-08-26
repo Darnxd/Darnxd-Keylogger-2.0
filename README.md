@@ -107,6 +107,5 @@ This project is strictly for authorized penetration testing labs and digital for
         
    - **KeystoneCaptor (Keyboard Module)**
      
-        - Captures raw keystrokes in bracket notation ([backspace], [ctrl]a, [enter]).
-          
+        - Captures raw keystrokes in bracket notation ([backspace], [ctrl]a, [enter]).        
         - Sends events to the SequenceBuilder. 
