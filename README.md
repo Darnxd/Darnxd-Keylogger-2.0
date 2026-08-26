@@ -76,21 +76,23 @@ This project is strictly for authorized penetration testing labs and digital for
 
  **Libraries**
 
-| Library | Version | Purpose | Why Needed |
-| --- | --- | --- | --- |
-| **pynput** | Latest | Keyboard and mouse capture | Provides low‑level input event listeners. Cross‑platform alternative to Win32 API hooks. |
-| **Pillow (PIL)** | Latest | Screenshot capture | ``ImageGrab.grab()`` captures full screen. Required for screenshot module. |
-| **threading** | stdlib | Multi‑threaded architecture | Each module (keyboard, mouse, screenshot, credential scanner, compression) runs in its own thread. |
-| **queue** | stdlib | Real‑time event bus | Thread‑safe communication between capture modules and dashboard display. |
-| **re** | stdlib | Credential pattern matching | Regex patterns for detecting emails, passwords, SSNs, etc. |
-| **csv** | stdlib | Credential storage | Writes harvested credentials to structured CSV format. |
-| **json** | stdlib | Internal event serialization | Used internally, not for output. |
-| **zipfile** | stdlib | Evidence compression | Bundles all artifacts into ZIP archives. |
-| **pathlib** | stdlib | File path management | Clean cross‑platform path handling. |
-| **datetime** | stdlib | Timestamps | Every event is timestamped in ISO format. |
-| **collections.deque** | stdlib | Live event feed (circular buffer) | Keeps last N events for dashboard display. |
-| **socket** | stdlib | Future exfiltration support | Placeholder for TCP exfil, imported but not actively used. |
-| **os** | stdlib | Screen clearing | Clears console (``cls`` on Windows, ``clear`` on Linux/macOS). |
+## 📚 Technologies Used
+
+| Library             | Purpose                        | Why Needed                                                                 |
+|---------------------|--------------------------------|----------------------------------------------------------------------------|
+| **pynput**          | Keyboard and mouse capture     | Provides low‑level input event listeners. Cross‑platform alternative to Win32 API hooks. |
+| **Pillow (PIL)**    | Screenshot capture             | `ImageGrab.grab()` captures full screen. Required for screenshot module.   |
+| **threading**       | Multi‑threaded architecture    | Each module (keyboard, mouse, screenshot, credential scanner, compression) runs in its own thread. |
+| **queue**           | Real‑time event bus            | Thread‑safe communication between capture modules and dashboard display.   |
+| **re**              | Credential pattern matching    | Regex patterns for detecting emails, passwords, SSNs, etc.                 |
+| **csv**             | Credential storage             | Writes harvested credentials to structured CSV format.                     |
+| **json**            | Internal event serialization   | Used internally, not for output.                                           |
+| **zipfile**         | Evidence compression           | Bundles all artifacts into ZIP archives.                                   |
+| **pathlib**         | File path management           | Clean cross‑platform path handling.                                        |
+| **datetime**        | Timestamps                     | Every event is timestamped in ISO format.                                  |
+| **collections.deque** | Live event feed (circular buffer) | Keeps last N events for dashboard display.                                |
+| **socket**          | Future exfiltration support    | Placeholder for TCP exfil, imported but not actively used.                  |
+| **os**              | Screen clearing                | Clears console (`cls` on Windows, `clear` on Linux/macOS).                 |
 
 
 
