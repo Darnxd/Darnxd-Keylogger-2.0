@@ -116,3 +116,8 @@ This project is strictly for authorized penetration testing labs and digital for
            - Raw sequence → verbatim keystrokes.
            - Decoded text → applies backspaces, spaces, enters.
        - Example: raw = admin[backspace]gmail.com, decoded = admingmail.com.
+
+   - **MouseDetector (Mouse Module)**
+
+       - Logs clicks with button type, coordinates, and zone (TOP‑LEFT, TOP‑RIGHT, etc.).
+       - Samples every 5th movement to reduce noise.
