@@ -187,5 +187,9 @@ This project is strictly for authorized penetration testing labs and digital for
       For Windows
 
           venv\Scripts\activate      # Windows
+
+   3. Install dependencies
+      
+            pip install pynput pillow
       
       
