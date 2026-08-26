@@ -74,7 +74,21 @@ This project is strictly for authorized penetration testing labs and digital for
 
    - Python 3.8+
 
-     - **Libraries**
+ **Libraries**
+ Library	Version	Purpose	Why Needed
+pynput	Latest	Keyboard and mouse capture	Provides low-level input event listeners. Alternative would be ctypes + Win32 API hooks, but pynput is cross-platform
+Pillow (PIL)	Latest	Screenshot capture	ImageGrab.grab() captures the full screen. Required for the screenshot module
+threading	stdlib	Multi-threaded architecture	Each module (keyboard, mouse, screenshot, credential scanner, compression) runs in its own thread
+queue	stdlib	Real-time event bus	Thread-safe communication between capture modules and the dashboard display
+re	stdlib	Credential pattern matching	All regex patterns for detecting emails, passwords, SSNs, etc.
+csv	stdlib	Credential storage	Writes harvested credentials to structured CSV format
+json	stdlib	Internal event serialization (not used for output)	—
+zipfile	stdlib	Evidence compression	Bundles all artifacts into ZIP archives
+pathlib	stdlib	File path management	Clean cross-platform path handling
+datetime	stdlib	Timestamps	Every event is timestamped with ISO format
+collections.deque	stdlib	Live event feed (circular buffer)	Keeps last N events for dashboard display
+socket	stdlib	Future exfiltration support (not actively used)	Imported but not called — placeholder for TCP exfil
+os	stdlib	Screen clearing	cls on Windows, clear on Linux/macOS for dashboard
 
 
 
