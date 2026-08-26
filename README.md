@@ -121,3 +121,8 @@ This project is strictly for authorized penetration testing labs and digital for
 
        - Logs clicks with button type, coordinates, and zone (TOP‑LEFT, TOP‑RIGHT, etc.).
        - Samples every 5th movement to reduce noise.
+
+   - **ScreenshotCaptor (Screenshot Module)**
+
+        - Takes full‑screen screenshots every 30 seconds.
+        - Stores PNG files in Darnxd/screenshots/.
