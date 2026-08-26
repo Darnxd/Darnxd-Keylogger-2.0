@@ -181,6 +181,11 @@ This project is strictly for authorized penetration testing labs and digital for
    2. Create a virtual environment (Recommended) 
 
             python -m venv venv
-      for Linux/Mac
+      For Linux/Mac
       
            source venv/bin/activate   # Linux/macOS
+      For Windows
+
+          venv\Scripts\activate      # Windows
+      
+      
