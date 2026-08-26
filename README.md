@@ -76,8 +76,6 @@ This project is strictly for authorized penetration testing labs and digital for
 
  **Libraries**
 
-## 📚 Technologies Used
-
 | Library             | Purpose                        | Why Needed                                                                 |
 |---------------------|--------------------------------|----------------------------------------------------------------------------|
 | **pynput**          | Keyboard and mouse capture     | Provides low‑level input event listeners. Cross‑platform alternative to Win32 API hooks. |
