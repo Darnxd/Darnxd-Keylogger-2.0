@@ -155,3 +155,8 @@ This project is strictly for authorized penetration testing labs and digital for
 
       - Generates EXFILTRATION_MARKER.txt to simulate staged exfiltration.
       - No real network transmission — lab‑only simulation.
+
+   - **Report Generator (DarnxdReport)**
+
+      - Produces a structured forensic report (darnxd_keylogger_report.txt).
+      - Includes ASCII banner, evidence summary, keystroke analysis, credential dump, mouse activity, screenshot log.
