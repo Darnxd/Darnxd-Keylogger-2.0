@@ -164,4 +164,4 @@ This project is strictly for authorized penetration testing labs and digital for
 # **🛠️ Local Setup**
 
    # Installation Method
-      - pip install pynput pillow
+          pip install pynput pillow
