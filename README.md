@@ -109,3 +109,4 @@ This project is strictly for authorized penetration testing labs and digital for
      
         - Captures raw keystrokes in bracket notation ([backspace], [ctrl]a, [enter]).        
         - Sends events to the SequenceBuilder. 
+  - **SequenceBuilder**
