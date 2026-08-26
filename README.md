@@ -191,5 +191,9 @@ This project is strictly for authorized penetration testing labs and digital for
    3. Install dependencies
       
             pip install pynput pillow
+
+   4.  Run the script (works on Windows)
+
+            python darnxd_keylogger_2.0.py
       
       
