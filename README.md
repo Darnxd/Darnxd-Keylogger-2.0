@@ -150,3 +150,8 @@ This project is strictly for authorized penetration testing labs and digital for
 
         - Every 2 minutes, compresses all evidence (CSV, screenshots, reports) into a ZIP archive.
         - Creates a final bundle on exit.
+
+   - **Exfiltration Marker**
+
+      - Generates EXFILTRATION_MARKER.txt to simulate staged exfiltration.
+      - No real network transmission — lab‑only simulation.
