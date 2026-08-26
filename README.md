@@ -94,3 +94,6 @@ This project is strictly for authorized penetration testing labs and digital for
 
 ## **Operating Systems**
 
+   - Windows (fully tested)
+   - Linux (tested on Kali, Ubuntu)
+   - macOS (should work, limited testing)
