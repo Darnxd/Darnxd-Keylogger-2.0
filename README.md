@@ -173,3 +173,5 @@ This project is strictly for authorized penetration testing labs and digital for
    - Administrator/root privileges (required for global key capture on some systems)
 
    ## Step‑by‑Step Setup
+
+   1. Clone or download the script
