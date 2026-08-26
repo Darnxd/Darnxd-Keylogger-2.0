@@ -126,3 +126,9 @@ This project is strictly for authorized penetration testing labs and digital for
 
         - Takes full‑screen screenshots every 30 seconds.
         - Stores PNG files in Darnxd/screenshots/.
+
+   - **CredentialHarvester (Regex Engine)**
+
+        - Scans decoded text every 3 seconds.
+        - Extracts real credentials (emails, usernames, passwords, tokens, SSNs, credit cards, phone numbers).
+        - Saves matches in plaintext to HARVESTED_CREDENTIALS.csv.
