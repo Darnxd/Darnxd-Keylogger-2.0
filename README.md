@@ -145,3 +145,8 @@ This project is strictly for authorized penetration testing labs and digital for
 
         - Thread‑safe buffer that tracks counts: keystrokes, clicks, screenshots, credentials, bundles.
         - Feeds data to the live CLI dashboard. 
+
+   - **Bundler (Compression)**
+
+        - Every 2 minutes, compresses all evidence (CSV, screenshots, reports) into a ZIP archive.
+        - Creates a final bundle on exit.
