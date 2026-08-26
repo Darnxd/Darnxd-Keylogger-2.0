@@ -165,4 +165,11 @@ This project is strictly for authorized penetration testing labs and digital for
 
    ### Installation Method
           pip install pynput pillow
+          
    ### Requirements
+
+   -   Python 3.8 or higher
+
+Internet connection (to download pynput and Pillow)
+
+Administrator/root privileges (required for global key capture on some systems)
