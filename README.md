@@ -92,5 +92,5 @@ This project is strictly for authorized penetration testing labs and digital for
 | **socket**          | Future exfiltration support    | Placeholder for TCP exfil, imported but not actively used.                  |
 | **os**              | Screen clearing                | Clears console (`cls` on Windows, `clear` on Linux/macOS).                 |
 
-
+**Operating Systems**
 
