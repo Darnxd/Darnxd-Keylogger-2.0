@@ -140,3 +140,8 @@ This project is strictly for authorized penetration testing labs and digital for
             - Type (EMAIL, PASSWORD, etc.)
             - Value (plaintext)
             - Context snippet
+
+   - **EvidenceBuffer (Event Store)**
+
+        - Thread‑safe buffer that tracks counts: keystrokes, clicks, screenshots, credentials, bundles.
+        - Feeds data to the live CLI dashboard. 
