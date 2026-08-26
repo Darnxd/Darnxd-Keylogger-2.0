@@ -102,8 +102,7 @@ This project is strictly for authorized penetration testing labs and digital for
 
    - **User Input**
     
-        - A user types keystrokes or performs mouse actions on the system.
-          
+        - A user types keystrokes or performs mouse actions on the system.        
         - Example: typing Abc123456@gmail.com or clicking on a file.
         
    - **KeystoneCaptor (Keyboard Module)**
