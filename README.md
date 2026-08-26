@@ -1,3 +1,4 @@
+<img width="1280" height="853" alt="6278351724527426958" src="https://github.com/user-attachments/assets/c6685595-b070-4c83-8144-72b4bfecf917" />
 # Darnxd-Keylogger-2.0
 
 ## ⚠️ Legal Disclaimer — READ THIS FIRST
