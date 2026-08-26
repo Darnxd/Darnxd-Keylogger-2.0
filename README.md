@@ -179,3 +179,5 @@ This project is strictly for authorized penetration testing labs and digital for
             git clone https://github.com/darnxd/darnxd-keylogger-2.0.git
             cd darnxd-keylogger-2.0
    2. Create a virtual environment (Recommended) 
+
+            python -m venv venv
