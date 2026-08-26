@@ -37,7 +37,7 @@ This project is strictly for authorized penetration testing labs and digital for
 
 # **⚙️ Features**
 
-### **Detection**
+   ### **Detection**
 
    - Keystroke sequence capture (raw bracket format logging)
 
@@ -49,7 +49,7 @@ This project is strictly for authorized penetration testing labs and digital for
 
    - Simple anomaly hooks (e.g., repeated failed logins, suspicious text patterns)
 
-### **Response**
+   ### **Response**
 
    - Evidence compression into ZIP bundles every 2 minutes
 
@@ -59,7 +59,7 @@ This project is strictly for authorized penetration testing labs and digital for
 
    - Structured forensic report generation (.txt)
 
-### **Analyst Experience**
+   ### **Analyst Experience**
 
    - Severity distribution of captured events (Low, Medium, High, Critical)
 
@@ -74,7 +74,7 @@ This project is strictly for authorized penetration testing labs and digital for
 
    - Python 3.8+
 
- ## **Libraries**
+ ## - **Libraries**
 
 | Library             | Purpose                        | Why Needed                                                                 |
 |---------------------|--------------------------------|----------------------------------------------------------------------------|
@@ -92,7 +92,7 @@ This project is strictly for authorized penetration testing labs and digital for
 | **socket**          | Future exfiltration support    | Placeholder for TCP exfil, imported but not actively used.                  |
 | **os**              | Screen clearing                | Clears console (`cls` on Windows, `clear` on Linux/macOS).                 |
 
- ## **Operating Systems**
+ ## - **Operating Systems**
 
    - Windows (fully tested)
    - Linux (tested on Kali, Ubuntu)
