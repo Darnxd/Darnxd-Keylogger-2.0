@@ -222,3 +222,6 @@ This project is strictly for authorized penetration testing labs and digital for
 - **Event Counters** → Keys, Clicks, Moves, Screenshots, Credential Hits, Bundles  
 - **Live Event Stream** → Timestamped keystrokes, mouse moves, clicks, and credential matches  
 - **Report Trigger** → Press `Ctrl+C` to stop capture and auto‑generate the forensic report
+
+  <img width="1920" height="1080" alt="Screenshot_2026-08-27_12_47_02" src="https://github.com/user-attachments/assets/557a862b-b7d9-415f-8a51-e72213a8f3db" />
+
