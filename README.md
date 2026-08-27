@@ -208,6 +208,13 @@ This project is strictly for authorized penetration testing labs and digital for
 # **📸 Screenshots**
 
 - **Terminal Execution (ASCII Dashboard)**
+  
      Shows live keystroke capture, mouse detection, screenshots, and credential harvesting.
+  
   <img width="1920" height="1080" alt="screen_20260827_124614" src="https://github.com/user-attachments/assets/025949d6-be41-45fd-83a9-5ec5a0aa8686" />
+
+# **⚡ Live Dashboard**
+
+   When the script runs, it launches a real‑time forensic dashboard in the terminal.  
+   This interface shows module status, event counters, and a live stream of captured activity.
 
