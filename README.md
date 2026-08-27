@@ -161,6 +161,27 @@ This project is strictly for authorized penetration testing labs and digital for
 
       - Produces a structured forensic report (darnxd_keylogger_report.txt).
       - Includes ASCII banner, evidence summary, keystroke analysis, credential dump, mouse activity, screenshot log.
+
+# **  Project Structure**
+
+        darnxd-keylogger-2.0/
+      │
+      ├── darnxd_keylogger_2.0.py        ← Main entry point (single-file script)
+      │
+      ├── Darnxd/                         ← Auto-generated output directory
+      │   ├── darnxd_keylogger_report.txt ← Structured forensic report
+      │   ├── HARVESTED_CREDENTIALS.csv   ← Plaintext credential dump
+      │   ├── EXFILTRATION_MARKER.txt     ← Exfiltration staging marker
+      │   ├── screenshots/                ← PNG captures (every 30s)
+      │   │   ├── screen_20260827_124614.png
+      │   │   └── ...
+      │   ├── darnxd_bundle_001.zip       ← Compressed evidence bundle
+      │   ├── darnxd_bundle_002.zip
+      │   └── darnxd_bundle_FINAL.zip     ← Final bundle on exit
+      │
+      ├── README.md                       ← This file
+      └── requirements.txt                ← pip install -r requirements.txt
+
     
 # **🛠️ Local Setup**
 
