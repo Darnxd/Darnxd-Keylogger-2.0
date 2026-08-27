@@ -246,3 +246,10 @@ This project is strictly for authorized penetration testing labs and digital for
 
   <img width="1920" height="1080" alt="Screenshot_2026-08-27_12_47_02" src="https://github.com/user-attachments/assets/557a862b-b7d9-415f-8a51-e72213a8f3db" />
 
+
+# **🚀 Future Improvements**
+
+   - Add C2 exfiltration simulation (lab‑only).  
+   - Enhance anomaly detection (failed logins, suspicious text patterns).  
+   - Build GUI dashboard for visualization.  
+   - Integrate with SOC training platforms .
