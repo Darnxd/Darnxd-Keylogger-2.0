@@ -203,4 +203,7 @@ This project is strictly for authorized penetration testing labs and digital for
 ## **Run Without Installing (One-liner)**
 
       pip install pynput pillow && python darnxd_keylogger_2.0.py
-      
+
+
+# **📸 Screenshots**
+
