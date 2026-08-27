@@ -253,3 +253,16 @@ This project is strictly for authorized penetration testing labs and digital for
    - Enhance anomaly detection (failed logins, suspicious text patterns).  
    - Build GUI dashboard for visualization.  
    - Integrate with SOC training platforms .
+
+# **📬 Contact & Contributions**
+
+   **Author:** Darnxd  
+   **Purpose:** Security education & authorized penetration testing  
+   **Contributions:** Open a GitHub issue or pull request  
+
+### Before contributing:
+
+   - All contributions must maintain **zero obfuscation** — the code should stay readable.  
+   - ❌ No backdoors, no crypters, no packers.  
+   - ✅ Keep the educational focus: every feature must serve a **learning purpose**.  
+   - Documentation updates, bug fixes, and new educational modules are welcome.  
