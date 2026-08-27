@@ -218,3 +218,7 @@ This project is strictly for authorized penetration testing labs and digital for
    When the script runs, it launches a real‑time forensic dashboard in the terminal.  
    This interface shows module status, event counters, and a live stream of captured activity.
 
+- **Module Status** → Keystone (keyboard), Mouse, Screenshot, Credential Harvester, Bundler, Report Writer  
+- **Event Counters** → Keys, Clicks, Moves, Screenshots, Credential Hits, Bundles  
+- **Live Event Stream** → Timestamped keystrokes, mouse moves, clicks, and credential matches  
+- **Report Trigger** → Press `Ctrl+C` to stop capture and auto‑generate the forensic report
